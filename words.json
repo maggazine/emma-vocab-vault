@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "word": "Satire",
+    "partOfSpeech": "noun",
+    "definition": "The use of humour, irony, exaggeration, or ridicule to expose and criticise people's stupidity or vices.",
+    "sentence": "The television show used sharp satire to mock the politicians' empty promises.",
+    "synonyms": ["parody", "caricature", "mockery"],
+    "antonyms": ["praise", "sincerity", "homage"],
+    "category": "Literary Technique"
+  },
+  {
+    "id": 2,
+    "word": "Irony",
+    "partOfSpeech": "noun",
+    "definition": "A state of affairs or an event that seems deliberately contrary to what one expects and is often wryly amusing.",
+    "sentence": "It was pure irony that the fire station burned down during the safety demonstration.",
+    "synonyms": ["paradox", "sarcasm", "incongruity"],
+    "antonyms": ["literalness", "predictability", "earnestness"],
+    "category": "Literary Technique"
+  },
+  {
+    "id": 3,
+    "word": "Alliteration",
+    "partOfSpeech": "noun",
+    "definition": "The occurrence of the same letter or sound at the beginning of adjacent or closely connected words.",
+    "sentence": "The author used alliteration in the phrase 'slippery, sliding serpents' to create suspense.",
+    "synonyms": ["head rhyme", "initial rhyme"],
+    "antonyms": ["assonance", "consonance"],
+    "category": "Literary Technique"
+  },
+  {
+    "id": 4,
+    "word": "Chuffed",
+    "partOfSpeech": "adjective",
+    "definition": "Extremely pleased, proud, or delighted about something you achieved.",
+    "sentence": "Emma was absolutely chuffed to finish her challenging verbal reasoning paper ahead of time.",
+    "synonyms": ["delighted", "thrilled", "gratified"],
+    "antonyms": ["displeased", "disappointed", "glum"],
+    "category": "British Idiom"
+  },
+  {
+    "id": 5,
+    "word": "Throw a spanner in the works",
+    "partOfSpeech": "phrase / idiom",
+    "definition": "To cause a sudden disruption or problem in an existing plan or activity.",
+    "sentence": "A sudden rain shower threw a spanner in the works for our planned sports match.",
+    "synonyms": ["sabotage", "disrupt", "impede"],
+    "antonyms": ["facilitate", "assist", "expedite"],
+    "category": "British Idiom"
+  },
+  {
+    "id": 6,
+    "word": "Pragmatic",
+    "partOfSpeech": "adjective",
+    "definition": "Dealing with things sensibly and realistically rather than based on theoretical considerations.",
+    "sentence": "She took a pragmatic approach to revision, focusing strictly on her weakest exam topics.",
+    "synonyms": ["practical", "sensible", "down-to-earth"],
+    "antonyms": ["idealistic", "impractical", "unrealistic"],
+    "category": "Academic"
+  }
+]

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emma's Vocab Vault | 14+ Prep</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Emma's Vocab Vault</h1>
+      <p class="subtitle">UK Independent School 14+ Vocabulary & Literary Techniques</p>
+      <div class="stats-bar">
+        <span>Total Words: <strong id="total-words">0</strong></span>
+        <span>Filter: 
+          <select id="category-filter">
+            <option value="all">All Categories</option>
+            <option value="Literary Technique">Literary Techniques</option>
+            <option value="British Idiom">British Idioms</option>
+            <option value="Academic">Academic & Reasoning</option>
+          </select>
+        </span>
+      </div>
+    </header>
+
+    <!-- Interactive Card Area -->
+    <main>
+      <div class="card-container">
+        <div class="flashcard" id="flashcard">
+          <div class="card-front">
+            <span class="badge" id="card-category">Category</span>
+            <h2 id="card-word">Word</h2>
+            <p class="pos" id="card-pos">part of speech</p>
+            <p class="flip-hint">Click card to reveal definition & details ↻</p>
+          </div>
+          <div class="card-back">
+            <div class="section">
+              <h4>Definition:</h4>
+              <p id="card-definition"></p>
+            </div>
+            <div class="section">
+              <h4>Sentence Context:</h4>
+              <p class="italic" id="card-sentence"></p>
+            </div>
+            <div class="syn-ant-grid">
+              <div>
+                <h4>Synonyms:</h4>
+                <p id="card-synonyms"></p>
+              </div>
+              <div>
+                <h4>Antonyms:</h4>
+                <p id="card-antonyms"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="controls">
+          <button id="prev-btn" class="nav-btn">← Previous</button>
+          <button id="shuffle-btn" class="alt-btn">🔀 Shuffle</button>
+          <button id="next-btn" class="nav-btn">Next →</button>
+        </div>
+      </div>
+
+      <!-- Add New Word Form -->
+      <section class="add-section">
+        <h3>Add Word to Vault</h3>
+        <form id="add-word-form">
+          <div class="form-row">
+            <input type="text" id="new-word" placeholder="Word or phrase" required />
+            <select id="new-category" required>
+              <option value="Literary Technique">Literary Technique</option>
+              <option value="British Idiom">British Idiom</option>
+              <option value="Academic">Academic / VR</option>
+            </select>
+            <input type="text" id="new-pos" placeholder="Part of speech (e.g., noun, adj)" required />
+          </div>
+          <textarea id="new-definition" placeholder="Definition in your own words..." required></textarea>
+          <textarea id="new-sentence" placeholder="Realistic context sentence..." required></textarea>
+          <div class="form-row">
+            <input type="text" id="new-synonyms" placeholder="Synonyms (comma separated)" required />
+            <input type="text" id="new-antonyms" placeholder="Antonyms (comma separated)" required />
+          </div>
+          <button type="submit" class="submit-btn">+ Save Word to Vault</button>
+        </form>
+      </section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
